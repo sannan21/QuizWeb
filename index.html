@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Quiz Web</title>
+</head>
+<body>
+	<div class="outer">
+		<div id="bar" class="pro"><label for="file"><progress value =0 max=1></progress></label></div>
+
+		<div id="progress"></div>
+		<div class="inner">
+			<h2 class="question">Question Appears Here</h2>
+			<ol type="a">
+				<li> <input type="radio"  name="answer" id="ans1" class="answer"><label for="ans1" id="option1">First Option</label>
+
+
+				</li>
+
+				<li id="a2"> <input type="radio"  name="answer" id="ans2" class="answer"><label for="ans2" id="option2">Second Option</label>
+				</li>
+				<br>
+
+				<li> <input type="radio"  name="answer" id="ans3" class="answer"><label for="ans3" id="option3">third Option</label>
+				</li>
+
+				<li id="4"> <input type="radio"  name="answer" id="ans4" class="answer"><label for="ans4" id="option4">Fourth Option</label>
+				</li>
+			</ol>
+			
+		</div>
+		<button id="previous" class="prev"  >Previous</button>
+
+			<button id="next" class="nex" >Next</button>
+			<button id="submit" class="sub" >Submit</button>
+	        <button id="re" class="try" onclick="location.reload()" >Retry</button>
+
+
+			<div id="score" class="score_div"> </div>
+			<div id="ins" class="instruction">Quiz Instructions
+				<ul class="subins">
+					<li>Your Answers are considered after you click Next/submit</li>
+					<li>If you click Previous You have to attend that question again</li>				</ul>
+
+
+			 </div>
+	</div>
+
+	<script src="java.js"></script>
+
+</body>
+</html>
