@@ -10,7 +10,7 @@
 .outer{
 	width: 100vw;
 	height: 100vh;
-	background-color: #CFD8DC;
+  background: linear-gradient(120deg, #d0314c, #007bff);
 
 
 }
